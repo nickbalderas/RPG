@@ -7,8 +7,6 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] Transform target;
 
-    private Ray lastRay;
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,10 +18,19 @@ public class Mover : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            lastRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+            MoveToCursor();
         }
-        Debug.DrawRay(lastRay.origin, lastRay.direction * 100);
-        
-        GetComponent<NavMeshAgent>().destination = target.position;
+    }
+    
+    private void MoveToCursor()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        bool hasHit = Physics.Raycast(ray, out hit);
+
+        if (hasHit)
+        {
+            GetComponent<NavMeshAgent>().destination = hit.point;
+        }
     }
 }
