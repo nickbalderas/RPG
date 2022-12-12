@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment=".gitignore">
-      <change beforePath="$PROJECT_DIR$/Assets/Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Test.cs.meta" beforeDir="false" />
+    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="intro to raycasting">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +52,16 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://U:/Unity Projects/RPG/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://U:/Unity Projects/RPG/Assets/Scenes/SampleScene/NavMesh.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://U:/Unity Projects/RPG/Assets/Settings/URP-HighFidelity-Renderer.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://U:/Unity Projects/RPG/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,6 +80,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670766365210</updated>
-      <workItem from="1670766373146" duration="291000" />
+      <workItem from="1670766373146" duration="5367000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670766491283</created>
@@ -124,7 +141,63 @@
       <option name="project" value="LOCAL" />
       <updated>1670766576365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed branch name and removed test file">
+      <created>1670766695374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670766695374</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updating other .gitignore?">
+      <created>1670766754426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670766754426</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit after .gitignore update">
+      <created>1670766784809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670766784809</updated>
+    </task>
+    <task id="LOCAL-00006" summary="and another...">
+      <created>1670766809448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670766809448</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Move using nav mesh agent">
+      <created>1670858600190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670858600190</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".gitignore update">
+      <created>1670858761804</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670858761804</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refined navmesh">
+      <created>1670859554085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670859554085</updated>
+    </task>
+    <task id="LOCAL-00010" summary="intro to raycasting">
+      <created>1670860125034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670860125034</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +221,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="Changed branch name and removed test file" />
+    <MESSAGE value="Updating other .gitignore?" />
+    <MESSAGE value="Commit after .gitignore update" />
+    <MESSAGE value="and another..." />
+    <MESSAGE value="Move using nav mesh agent" />
+    <MESSAGE value=".gitignore update" />
+    <MESSAGE value="Refined navmesh" />
+    <MESSAGE value="intro to raycasting" />
+    <option name="LAST_COMMIT_MESSAGE" value="intro to raycasting" />
   </component>
 </project>
