@@ -4,12 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="intro to raycasting">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" afterDir="false" />
+    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="basic movement tweaks">
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Dirt.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Dirt.BMP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Mud.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Brown Mud.BMP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cliff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cliff.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor Dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cobblestone Floor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cracked Soil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Cracked Soil.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Green Grass.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Green Grass.BMP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Light Green Grass.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Terrain Textures/TT_Light Green Grass.BMP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Character.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Characters/Character.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Follow Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Follow Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +105,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://U:/Unity Projects/RPG/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://U:/Unity Projects/RPG/Assets/Scenes/SampleScene/NavMesh.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://U:/Unity Projects/RPG/Assets/Settings/URP-HighFidelity-Renderer.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://U:/Unity Projects/RPG/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,19 +118,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="U:\Unity\2021.3.7f1\Editor\Unity.exe" />
@@ -125,7 +169,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670766365210</updated>
-      <workItem from="1670766373146" duration="5367000" />
+      <workItem from="1670766373146" duration="5484000" />
+      <workItem from="1670937468286" duration="4169000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670766491283</created>
@@ -197,7 +242,42 @@
       <option name="project" value="LOCAL" />
       <updated>1670860125034</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implement click-to-move">
+      <created>1670860750661</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670860750661</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Created a fixed follow camera">
+      <created>1670938216664</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670938216664</updated>
+    </task>
+    <task id="LOCAL-00013" summary="animation blend trees">
+      <created>1670939295471</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670939295471</updated>
+    </task>
+    <task id="LOCAL-00014" summary="match animation to movement">
+      <created>1670940720283</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670940720283</updated>
+    </task>
+    <task id="LOCAL-00015" summary="basic movement tweaks">
+      <created>1670942247274</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670942247274</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +309,11 @@
     <MESSAGE value=".gitignore update" />
     <MESSAGE value="Refined navmesh" />
     <MESSAGE value="intro to raycasting" />
-    <option name="LAST_COMMIT_MESSAGE" value="intro to raycasting" />
+    <MESSAGE value="implement click-to-move" />
+    <MESSAGE value="Created a fixed follow camera" />
+    <MESSAGE value="animation blend trees" />
+    <MESSAGE value="match animation to movement" />
+    <MESSAGE value="basic movement tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic movement tweaks" />
   </component>
 </project>
