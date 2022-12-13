@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="animation blend trees">
+    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="match animation to movement">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Character.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mover.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670766365210</updated>
       <workItem from="1670766373146" duration="5484000" />
-      <workItem from="1670937468286" duration="2736000" />
+      <workItem from="1670937468286" duration="3714000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670766491283</created>
@@ -215,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670939295471</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="match animation to movement">
+      <created>1670940720283</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670940720283</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +255,7 @@
     <MESSAGE value="implement click-to-move" />
     <MESSAGE value="Created a fixed follow camera" />
     <MESSAGE value="animation blend trees" />
-    <option name="LAST_COMMIT_MESSAGE" value="animation blend trees" />
+    <MESSAGE value="match animation to movement" />
+    <option name="LAST_COMMIT_MESSAGE" value="match animation to movement" />
   </component>
 </project>
