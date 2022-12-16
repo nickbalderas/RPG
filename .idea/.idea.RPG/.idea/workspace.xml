@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="implementing action priority">
+    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="moving within range">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +143,7 @@
       <workItem from="1671027769093" duration="1263000" />
       <workItem from="1671030569352" duration="83000" />
       <workItem from="1671195687742" duration="2729000" />
-      <workItem from="1671198908386" duration="804000" />
+      <workItem from="1671198908386" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670766491283</created>
@@ -291,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671198935534</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="moving within range">
+      <created>1671199739763</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671199739763</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +342,7 @@
     <MESSAGE value="namespaces" />
     <MESSAGE value="raycasting for components" />
     <MESSAGE value="implementing action priority" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementing action priority" />
+    <MESSAGE value="moving within range" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving within range" />
   </component>
 </project>

@@ -7,14 +7,15 @@ namespace RPG.Combat
     {
         [SerializeField] private float weaponRange = 2f;
         
-        private Transform target;
+        private Transform _target;
         
         private void Update()
         {
-            bool isInRange = Vector3.Distance(transform.position, target.position) < weaponRange;
-            if (target && !isInRange)
+            if (!_target) return;
+
+            if (_target && !GetIsInRange())
             {
-                GetComponent<Mover>().MoveTo(target.position);
+                GetComponent<Mover>().MoveTo(_target.position);
             }
             else
             {
@@ -22,9 +23,19 @@ namespace RPG.Combat
             }
         }
 
+        private bool GetIsInRange()
+        {
+            return Vector3.Distance(transform.position, _target.position) < weaponRange;
+        }
+
         public void Attack(CombatTarget combatTarget)
         {
-            target = combatTarget.transform;
+            _target = combatTarget.transform;
+        }
+
+        public void Cancel()
+        {
+            _target = null;
         }
     }
 }
