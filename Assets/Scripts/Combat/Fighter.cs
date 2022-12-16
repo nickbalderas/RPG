@@ -1,12 +1,30 @@
-﻿using UnityEngine;
+﻿using RPG.Movement;
+using UnityEngine;
 
 namespace RPG.Combat
 {
     public class Fighter : MonoBehaviour
     {
-        public void Attack(CombatTarget target)
+        [SerializeField] private float weaponRange = 2f;
+        
+        private Transform target;
+        
+        private void Update()
         {
-            print("Take that!");
+            bool isInRange = Vector3.Distance(transform.position, target.position) < weaponRange;
+            if (target && !isInRange)
+            {
+                GetComponent<Mover>().MoveTo(target.position);
+            }
+            else
+            {
+                GetComponent<Mover>().Stop();
+            }
+        }
+
+        public void Attack(CombatTarget combatTarget)
+        {
+            target = combatTarget.transform;
         }
     }
 }
