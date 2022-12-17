@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="moving within range">
+    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +146,8 @@
       <workItem from="1671027769093" duration="1263000" />
       <workItem from="1671030569352" duration="83000" />
       <workItem from="1671195687742" duration="2729000" />
-      <workItem from="1671198908386" duration="1464000" />
+      <workItem from="1671198908386" duration="1480000" />
+      <workItem from="1671280660637" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670766491283</created>
@@ -299,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671199739763</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="canceling combat with movement">
+      <created>1671200397201</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671200397201</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +354,7 @@
     <MESSAGE value="raycasting for components" />
     <MESSAGE value="implementing action priority" />
     <MESSAGE value="moving within range" />
-    <option name="LAST_COMMIT_MESSAGE" value="moving within range" />
+    <MESSAGE value="canceling combat with movement" />
+    <option name="LAST_COMMIT_MESSAGE" value="canceling combat with movement" />
   </component>
 </project>
