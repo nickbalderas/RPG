@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Character.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    <list default="true" id="d0570e08-872d-4632-901f-62193654359b" name="Changes" comment="Any state animations">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Health.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +144,7 @@
       <workItem from="1671280660637" duration="1812000" />
       <workItem from="1671374513349" duration="2169000" />
       <workItem from="1671459468225" duration="1515000" />
-      <workItem from="1671627213962" duration="46000" />
+      <workItem from="1671627213962" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670766491283</created>
@@ -366,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671461138652</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Any state animations">
+      <created>1671627274065</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1671627274065</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +392,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Move using nav mesh agent" />
     <MESSAGE value=".gitignore update" />
     <MESSAGE value="Refined navmesh" />
     <MESSAGE value="intro to raycasting" />
@@ -413,6 +416,7 @@
     <MESSAGE value="taking damage" />
     <MESSAGE value="nested prefabs and variants" />
     <MESSAGE value="using prefab variants" />
-    <option name="LAST_COMMIT_MESSAGE" value="using prefab variants" />
+    <MESSAGE value="Any state animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Any state animations" />
   </component>
 </project>
