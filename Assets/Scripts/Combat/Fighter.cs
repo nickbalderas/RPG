@@ -61,7 +61,7 @@ namespace RPG.Combat
             return Vector3.Distance(transform.position, _target.transform.position) < weaponRange;
         }
         
-        public bool CanAttack(CombatTarget combatTarget)
+        public bool CanAttack(GameObject combatTarget)
         {
             if (!combatTarget) return false;
             
@@ -70,7 +70,7 @@ namespace RPG.Combat
             return targetToTest && !targetToTest.IsDead();
         }
 
-        public void Attack(CombatTarget combatTarget)
+        public void Attack(GameObject combatTarget)
         {
             GetComponent<ActionScheduler>().StartAction(this);
             _target = combatTarget.GetComponent<Health>();

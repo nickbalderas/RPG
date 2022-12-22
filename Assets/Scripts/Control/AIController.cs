@@ -1,3 +1,5 @@
+using System;
+using RPG.Combat;
 using UnityEngine;
 
 namespace RPG.Control
@@ -6,15 +8,31 @@ namespace RPG.Control
     {
         [SerializeField] private float chaseDistance = 5f;
 
-        private void Update()
+        private Fighter _fighter;
+        private GameObject _player;
+
+        private void Start()
         {
-            DistanceToPlayer();
+            _fighter = GetComponent<Fighter>();
+            _player = GameObject.FindWithTag("Player");
         }
 
-        private void DistanceToPlayer()
+        private void Update()
         {
-            GameObject player = GameObject.FindWithTag("Player");
-            Vector3.Distance(player.transform.position, transform.position);
+            if (InAttackRangeOfPlayer() && _fighter.CanAttack(_player))
+            {
+                GetComponent<Fighter>().Attack(_player);
+            }
+            else
+            {
+                _fighter.Cancel();
+            }
+        }
+
+        private bool InAttackRangeOfPlayer()
+        {
+            var distanceToPlayer = Vector3.Distance(_player.transform.position, transform.position);
+            return distanceToPlayer < chaseDistance;
         }
     }
 }
